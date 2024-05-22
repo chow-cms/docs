@@ -543,7 +543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:>=16":
+"@types/react@npm:>=16, @types/react@npm:^18.3.2":
   version: 18.3.2
   resolution: "@types/react@npm:18.3.2"
   dependencies:
@@ -2825,6 +2825,7 @@ __metadata:
   dependencies:
     "@biomejs/biome": "npm:1.7.3"
     "@types/node": "npm:18.11.10"
+    "@types/react": "npm:^18.3.2"
     next: "npm:^13.0.6"
     nextra: "npm:latest"
     nextra-theme-docs: "npm:latest"

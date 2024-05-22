@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "biome check ."
   },
   "repository": {
     "type": "git",
@@ -25,6 +26,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@biomejs/biome": "1.7.3",
     "@types/node": "18.11.10",
     "typescript": "^4.9.3"
   }
